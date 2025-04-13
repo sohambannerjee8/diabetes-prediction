@@ -120,7 +120,7 @@ ax1.set_ylabel('MSE')
 ax1.tick_params(axis='x', rotation=45)
 
 # R² comparison
-sns ICHbarplot(x=models, y=r2_values, ax=ax2)
+sns.barplot(x=models, y=r2_values, ax=ax2)
 ax2.set_title('R² Score Comparison')
 ax2.set_ylabel('R²')
 ax2.tick_params(axis='x', rotation=45)
